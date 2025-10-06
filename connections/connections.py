@@ -18,7 +18,7 @@ def main():
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
 
-    print_array(current_words)
+    # print_array(current_words)
 
 
 # Write your functions here!
