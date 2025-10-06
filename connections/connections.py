@@ -31,7 +31,7 @@ def change_correct_words(correct_words, current_words):
 
     for first_word in correct_words:
         if current_words[i] in correct_words:
-            current_words[i] = BLANK  # use your constant
+            current_words[i] = BLANK  
 
     return current_words
 
