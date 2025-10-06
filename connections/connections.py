@@ -9,7 +9,7 @@ group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all goups together
-all_
+all_groups = 
 
 def main():
     print("Welcome to Connections!")
