@@ -29,7 +29,7 @@ def change_correct_words(correct_words, current_words):
     """
     # print(correct_words, current_words)
 
-    for word in correct_words:
+    for first_word in correct_words:
         print(word)
         for word in correct_words:
         #     if word in correct_words:
