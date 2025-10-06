@@ -1,0 +1,11 @@
+def convert(text: str) -> str:
+    text = text.replace(":)", "🙂")
+    text = text.replace(":(", "🙁")
+    return text
+
+def main():
+    user_input = input("Enter some text: ")
+    print(convert(user_input))
+
+if __name__ == "__main__":
+    main()
