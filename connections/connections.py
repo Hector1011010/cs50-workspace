@@ -25,7 +25,7 @@ def change_correct_words():
     >>> change_correct_words(["AIR", "RUN", "SCREEN"], ["AIR", "RUN", "SCREEN",
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"])
-    ["AIR", "RUN", "SCREEN",
+    ["-----", "-----", "SCREEN",
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
     """
