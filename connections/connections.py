@@ -22,7 +22,9 @@ def main():
 # Write your functions here!
 def change_correct_words():
     """
-    >>> change_correct_words(["AIR", "RUN", "SCREEN"], ["-----", "-----", "-----"])
+    >>> change_correct_words(["AIR", "RUN", "SCREEN"], ["AIR", "RUN", "SCREEN",
+                     "REWIND", "SHUFFLE", "SKIP",
+                     "BATH", "CARD", "PICTURE"])
     true
     """
 
