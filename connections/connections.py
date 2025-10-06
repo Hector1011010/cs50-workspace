@@ -29,9 +29,9 @@ def change_correct_words(correct_words, current_words):
     """
     # print(correct_words, current_words)
 
-    for first_word in correct_words:
+    for i in range(len(current_words)):  # i goes from 0 to len(current_words)-1
         if current_words[i] in correct_words:
-            current_words[i] = BLANK
+            current_words[i] = BLANK  # replace with "-----"
 
     return current_words
 
