@@ -29,6 +29,7 @@ def change_correct_words():
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
     """
+    print
 
 
 
