@@ -29,7 +29,7 @@ def change_correct_words(correct_words, current_words):
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
     """
-    print(c)
+    print(correct_words, current_words)
 
 
 
