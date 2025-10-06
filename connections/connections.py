@@ -31,7 +31,8 @@ def change_correct_words(correct_words, current_words):
 
     for current_words in correct_words():
         for word in correct_words:
-            if word in correct_words 
+            if word in correct_words:
+                print()
 
 
 
