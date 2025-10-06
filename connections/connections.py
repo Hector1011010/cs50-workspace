@@ -30,7 +30,8 @@ def change_correct_words(correct_words, current_words):
     # print(correct_words, current_words)
 
     for words in current_words():
-        for correct_words in 
+        for correct_words in correct_words:
+            
 
 
 
