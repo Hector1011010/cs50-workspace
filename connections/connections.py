@@ -33,7 +33,7 @@ def change_correct_words(correct_words, current_words):
         for word in correct_words:
             if word in correct_words:
                 correct_words.replace(word, "-----")
-    return 
+    return current_words
 
 
 
