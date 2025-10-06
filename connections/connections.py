@@ -8,6 +8,8 @@ group1 = ["AIR", "RUN", "SCREEN"]
 group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
+# 
+
 
 def main():
     print("Welcome to Connections!")
@@ -27,7 +29,7 @@ def change_correct_words(correct_words, current_words):
     """
     # print(correct_words, current_words)
 
-for 
+for
 
 
 
