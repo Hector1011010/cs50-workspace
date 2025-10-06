@@ -9,7 +9,7 @@ group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all goups together
-all_groups = [group1, grou-]
+all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
@@ -29,7 +29,7 @@ def change_correct_words(correct_words, current_words):
     """
     # print(correct_words, current_words)
 
-for
+for 
 
 
 
