@@ -31,7 +31,7 @@ def change_correct_words(correct_words, current_words):
     >>> change_correct_words(["BATH", "CARD", "PICTURE"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
     ['AIR', 'RUN', 'SCREEN', 'REWIND', 'SHUFFLE', 'SKIP', '-----', '-----', '-----']
     >>> change_correct_words(["BATH", "CARD", "PICTURE"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['AIR', 'RUN', 'SCREEN', 'REWIND', 'SHUFFLE', 'SKIP', '-----', '-----', '-----']
+    ['AIR', 'RUN', 'SCREEN', 'REWIND', '-----', 'SKIP', '-----', '-----', '-----']
     """
     for i in range(len(current_words)):
         if current_words[i] in correct_words:
