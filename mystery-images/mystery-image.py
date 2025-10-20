@@ -2,7 +2,7 @@ from PIL import Image
 from image_utils import get_2d_editable_image, save_2d_edits
 
 def create_and_set_pixels(filename):
-    width, height = 3, 3
+    width, height = 5, 5
     img = Image.new('RGB', (width, height), color='white')
 
     # Get the pixel access object. This object acts like a 2D list.
