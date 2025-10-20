@@ -21,11 +21,11 @@ def create_and_set_pixels(filename):
 
     # Then, uncomment the lines below and run the code.
 
-    # try:
-    #     save_2d_edits(img, pixels)
-    #     img.save(filename)
-    # except Exception as e:
-    #     print(f"Error saving image: {e}")
+    try:
+        save_2d_edits(img, pixels)
+        img.save(filename)
+    except Exception as e:
+        print(f"Error saving image: {e}")
 
 if __name__ == "__main__":
     # Note: To run this script, you must have the Pillow library installed:
