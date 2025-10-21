@@ -20,6 +20,8 @@ def create_and_set_pixels(filename):
 
     pixels[4][2] = (128, 128, 128)
 
+    pixels[1][1] = (0, 0, 0)
+
     # First, draw out on your piece of paper what you think this
     # image will look like!
 
