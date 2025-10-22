@@ -13,7 +13,10 @@ all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
-    change_correct_words(["AIR", "RUN", "SCREEN"], ["AIR", "RUN", "SCREEN", "REWIND"])
+
+
+
+    
     current_words = ["AIR", "RUN", "SCREEN",
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
