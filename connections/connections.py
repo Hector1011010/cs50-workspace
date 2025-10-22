@@ -23,8 +23,9 @@ def main():
 
 # Write your functions here!
 def change_correct_words(correct_words, current_words):
-    
+    # loop through each index in all of current words
     for i in range(len(current_words)):
+            # for each correct_word in all of correct_words
         if current_words[i] in correct_words:
             current_words[i] = BLANK
 
