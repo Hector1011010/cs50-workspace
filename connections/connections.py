@@ -36,10 +36,6 @@ def shuffle(arr: list[str]) -> list[str]:
         arr[idx] = arr[r_idx]
         arr[r_idx] = temp
 
-shuffled_words = shuffle(current_words)
-
-
-
 
 
 # Print the words N2
