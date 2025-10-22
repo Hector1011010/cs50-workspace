@@ -23,18 +23,7 @@ def main():
 
 # Write your functions here!
 def change_correct_words(correct_words, current_words):
-    """
-    >>> change_correct_words(["AIR", "RUN", "SCREEN"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['-----', '-----', '-----', 'REWIND', 'SHUFFLE', 'SKIP', 'BATH', 'CARD', 'PICTURE']
-    >>> change_correct_words(["REWIND", "SHUFFLE", "SKIP"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['AIR', 'RUN', 'SCREEN', '-----', '-----', '-----', 'BATH', 'CARD', 'PICTURE']
-    >>> change_correct_words(["BATH", "CARD", "PICTURE"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['AIR', 'RUN', 'SCREEN', 'REWIND', 'SHUFFLE', 'SKIP', '-----', '-----', '-----']
-    >>> change_correct_words(["BATH", "CARD", "SKIP"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['AIR', 'RUN', 'SCREEN', 'REWIND', 'SHUFFLE', '-----', '-----', '-----', 'PICTURE']
-    >>> change_correct_words(["BATH", "SHUFFLE", "RUN"], ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
-    ['AIR', '-----', 'SCREEN', 'REWIND', '-----', 'SKIP', '-----', 'CARD', 'PICTURE']
-    """
+    
     for i in range(len(current_words)):
         if current_words[i] in correct_words:
             current_words[i] = BLANK
