@@ -36,8 +36,11 @@ def shuffle(arr: list[str]) -> list[str]:
         arr[idx] = arr[r_idx]
         arr[r_idx] = temp
 
-    return arr
 shuffled_words = shuffle(words)
+
+
+    return arr
+
 
 
 
