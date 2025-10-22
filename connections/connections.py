@@ -36,14 +36,6 @@ def change_correct_words(correct_words, current_words):
 
 
 
-
-# loop through each index in all of current words
-    # for each correct_word in all of correct_words
-        # if correct_word matches current_words[index]
-            # replace current_words[index] with “-----”
-# return current_words
-
-
 # Helper function I wrote for you
 def print_array(array):
     """
