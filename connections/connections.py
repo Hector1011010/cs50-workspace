@@ -13,7 +13,7 @@ all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
-    print_grid()
+    print_grid(4, [])
 
 
     current_words = ["AIR", "RUN", "SCREEN",
