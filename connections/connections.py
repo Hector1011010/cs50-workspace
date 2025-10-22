@@ -13,7 +13,6 @@ all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
-    shuffle(arr: list[str])
     print_grid(3, ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
 
 
@@ -23,23 +22,22 @@ def main():
 
 
 # Shuffle the words
-import random
-def shuffle(arr: list[str]) -> list[str]:
+# import random
+# def shuffle(arr: list[str]) -> list[str]:
 
-    arr = arr.copy();
+#     arr = arr.copy();
 
-    for idx in range(len(arr)):
-        temp = arr[idx]
-        r_idx = int(random.random() * len(arr))
-        arr[idx] = arr[r_idx]
-        arr[r_idx] = temp
+#     for idx in range(len(arr)):
+#         temp = arr[idx]
+#         r_idx = int(random.random() * len(arr))
+#         arr[idx] = arr[r_idx]
+#         arr[r_idx] = temp
 
-    return arr
+#     return arr
 
 
 
 # Print the words N2
-
 def print_grid(words_per_row, words):
    for i in range(0, len(words), words_per_row):
        print_array(words[i:i+words_per_row])
