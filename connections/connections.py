@@ -39,8 +39,6 @@ def shuffle(arr: list[str]) -> list[str]:
 shuffled_words = shuffle(current_words)
 
 
-    return arr
-
 
 
 
