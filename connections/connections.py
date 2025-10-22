@@ -21,7 +21,7 @@ def main():
     # print_array(current_words)
 import random
 def shuffle(arr: list[str]) -> list[str]:
-    
+
     arr = arr.copy();
 
     for idx in range(len(arr)):
@@ -57,16 +57,15 @@ def change_correct_words(correct_words, current_words):
     return current_words
 
 
+# 
 
+# def print_array(array):
+#     """
+#     Print words in a row, separated by two spaces.
+#     """
+#     for word in array:
+#         print(word, end="  ")
+#     print()
 
-# Helper function I wrote for you
-def print_array(array):
-    """
-    Print words in a row, separated by two spaces.
-    """
-    for word in array:
-        print(word, end="  ")
-    print()
-
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
