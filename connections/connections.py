@@ -12,7 +12,6 @@ group3 = ["BATH", "CARD", "PICTURE"]
 all_groups = [group1, group2, group3]
 
 def main():
-    while true
     print("Welcome to Connections!")
     print_grid(3, ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
 
