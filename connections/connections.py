@@ -11,8 +11,8 @@ group3 = ["BATH", "CARD", "PICTURE"]
 # put all goups together
 all_groups = [group1, group2, group3]
 current_words = ["AIR", "RUN", "SCREEN",
-                     "REWIND", "SHUFFLE", "SKIP",
-                     "BATH", "CARD", "PICTURE"]
+                "REWIND", "SHUFFLE", "SKIP",
+                "BATH", "CARD", "PICTURE"]
 
 
 def main():
