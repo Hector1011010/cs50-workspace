@@ -14,6 +14,7 @@ all_groups = [group1, group2, group3]
 def main():
     print("Welcome to Connections!")
     print_grid(3, ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
+    get_user_guess()
 
 
     current_words = ["AIR", "RUN", "SCREEN",
