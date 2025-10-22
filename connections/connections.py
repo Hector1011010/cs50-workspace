@@ -35,10 +35,9 @@ def shuffle(arr: list[str]) -> list[str]:
         r_idx = int(random.random() * len(arr))
         arr[idx] = arr[r_idx]
         arr[r_idx] = temp
-        
-    return arr
 
     return arr
+
 
 
 
