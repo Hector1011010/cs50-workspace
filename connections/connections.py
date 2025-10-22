@@ -40,6 +40,8 @@ def shuffle(arr: list[str]) -> list[str]:
 shuffled_words = shuffle(current_words)
 
 
+
+
 # Print the words N2
 def print_grid(words_per_row, words):
    for i in range(0, len(words), words_per_row):
