@@ -18,7 +18,6 @@ def main():
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
 
-# print_array(current_words)
 
 # Shuffle the words
 # import random
