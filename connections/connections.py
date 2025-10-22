@@ -60,8 +60,6 @@ GROUP_SIZE = 3
 BLANK = "-----"
 
 
-
-
 group1 = ["AIR", "RUN", "SCREEN"]
 group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
