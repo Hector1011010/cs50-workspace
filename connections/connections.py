@@ -57,15 +57,15 @@ def change_correct_words(correct_words, current_words):
     return current_words
 
 
-# Shuffle the words
 
-# def print_array(array):
-#     """
-#     Print words in a row, separated by two spaces.
-#     """
-#     for word in array:
-#         print(word, end="  ")
-#     print()
 
-# if __name__ == "__main__":
-#     main()
+def print_array(array):
+    """
+    Print words in a row, separated by two spaces.
+    """
+    for word in array:
+        print(word, end="  ")
+    print()
+
+if __name__ == "__main__":
+    main()
