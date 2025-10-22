@@ -27,9 +27,10 @@ def change_correct_words(correct_words, current_words):
     for i in range(len(current_words)):
         # for each correct_word in all of correct_words
         if current_words[i] in correct_words:
-            # if correct_word matches current_words[index]
+            # replace current_words[index] with “-----”
             current_words[i] = BLANK
 
+    # return current_words
     return current_words
 
 
