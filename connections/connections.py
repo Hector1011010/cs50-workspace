@@ -27,7 +27,7 @@ def main():
 
 # Shuffle the words
 import random
-def shuffle(arr = current_words) -> list[current_words]:
+def shuffle(arr = current_words) -> list[]:
 
     arr = arr.copy();
 
