@@ -29,7 +29,7 @@ def shuffle(arr: list[str]) -> list[str]:
     arr = arr.copy();
 
     for idx in range(len(arr)):
-        temp = arr["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"]
+        temp = arr[idx]
         r_idx = int(random.random() * len(arr))
         arr[idx] = arr[r_idx]
         arr[r_idx] = temp
