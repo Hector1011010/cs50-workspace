@@ -19,6 +19,47 @@ def main():
                      "BATH", "CARD", "PICTURE"]
 
     # print_array(current_words)
+import random
+def shuffle(arr: list[str]) -> list[str]:
+    """
+    >>> arr = [1, 2, 3, 2, 3, 4, 5]
+    >>> shuffle(arr) != arr
+    True
+
+    >>> arrr = [2, 4, 10000000000, 1, 3]
+    >>> shuffle(arr) != arr
+    True
+
+    >>> arrr = ["hello", "test", "potato", "banana"]
+    >>> shuffle(arr) != arr
+    True
+
+    >>> arrr = list(range(10000000))
+    >>> shuffle(arr) != arr
+    True
+
+    >>> arrr = [1, 2, 3, 4, "surprise", "dragonfruit"]
+    >>> shuffle(arr) != arr
+    True
+    """
+    arr = arr.copy();
+
+    for idx in range(len(arr)):
+        temp = arr[idx]
+        r_idx = int(random.random() * len(arr))
+        arr[idx] = arr[r_idx]
+        arr[r_idx] = temp
+
+    return arr
+
+
+
+
+
+
+
+
+
 
 
 # Write your functions here!
