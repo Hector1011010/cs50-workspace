@@ -27,9 +27,9 @@ def main():
 
 # Shuffle the words
 import random
+
 def shuffle(arr: list[str]) -> list[str]:
     arr = arr.copy()
-
     for idx in range(len(arr)):
         temp = arr[idx]
         r_idx = int(random.random() * len(arr))
