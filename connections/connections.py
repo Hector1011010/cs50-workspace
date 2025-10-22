@@ -19,6 +19,14 @@ def main():
                      "BATH", "CARD", "PICTURE"]
 
     # print_array(current_words)
+for idx in range(len(arr)):
+        temp = arr[idx]
+        r_idx = int(random.random() * len(arr))
+        arr[idx] = arr[r_idx]
+        arr[r_idx] = temp
+
+    return arr
+
 
 
 
