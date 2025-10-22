@@ -55,19 +55,6 @@ def get_user_guess():
 
 # Check that number of words is correct & words are valid
 
-WORD_COUNT = 9
-GROUP_SIZE = 3
-BLANK = "-----"
-
-
-group1 = ["AIR", "RUN", "SCREEN"]
-group2 = ["REWIND", "SHUFFLE", "SKIP"]
-group3 = ["BATH", "CARD", "PICTURE"]
-
-
-current_words = group1 + group2 + group3
-
-
 
 
 
