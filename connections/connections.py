@@ -17,7 +17,7 @@ current_words = ["AIR", "RUN", "SCREEN",
 
 def main():
     print("Welcome to Connections!")
-    print_grid(3, [current_words])
+    print_grid(3, current_words)
     get_user_guess()
 
 
