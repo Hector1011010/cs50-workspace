@@ -20,12 +20,12 @@ def main():
 
     # print_array(current_words)
 for idx in range(len(arr)):
-        temp = arr[idx]
-        r_idx = int(random.random() * len(arr))
-        arr[idx] = arr[r_idx]
-        arr[r_idx] = temp
+    temp = arr[idx]
+    r_idx = int(random.random() * len(arr))
+    arr[idx] = arr[r_idx]
+    arr[r_idx] = temp
 
-    return arr
+return arr
 
 
 
