@@ -19,6 +19,7 @@ def main():
                      "BATH", "CARD", "PICTURE"]
 
     # print_array(current_words)
+import random
 
 
 
