@@ -13,10 +13,9 @@ all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
+    print_grid
 
 
-
-    
     current_words = ["AIR", "RUN", "SCREEN",
                      "REWIND", "SHUFFLE", "SKIP",
                      "BATH", "CARD", "PICTURE"]
