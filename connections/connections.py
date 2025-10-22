@@ -20,12 +20,10 @@ def main():
 
     # print_array(current_words)
 import random
+def shuffle(arr: list[str]) -> list[str]:
+    for idx in range(len(arr)):
+        temp = arr[idx]
 
-for idx in range(len(arr)):
-    temp = arr[idx]
-    r_idx = int(random.random() * len(arr))
-    arr[idx] = arr[r_idx]
-    arr[r_idx] = temp
 
 return arr
 
