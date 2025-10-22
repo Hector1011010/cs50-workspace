@@ -45,7 +45,10 @@ def print_grid(words_per_row, words):
 
 
 
-
+def get_user_guess():
+   guess = input("Enter a word group (separated by spaces): ")
+   words = guess.split()
+   return words
 
 
 
