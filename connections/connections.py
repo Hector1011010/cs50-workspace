@@ -13,7 +13,7 @@ all_groups = [group1, group2, group3]
 
 def main():
     print("Welcome to Connections!")
-    shuffle()
+    shuffle(arr: list[str])
     print_grid(3, ["AIR", "RUN", "SCREEN", "REWIND", "SHUFFLE", "SKIP", "BATH", "CARD", "PICTURE"])
 
 
