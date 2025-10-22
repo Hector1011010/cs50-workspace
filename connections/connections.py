@@ -37,7 +37,7 @@ def shuffle(arr: list[str]) -> list[str]:
         arr[r_idx] = temp
     return arr
 
-current = shuffle(current_words)
+current_words = shuffle(current_words)
 
 
 
