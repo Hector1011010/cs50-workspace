@@ -27,7 +27,7 @@ def change_correct_words(correct_words, current_words):
     for i in range(len(current_words)):
         # for each correct_word in all of correct_words
         if current_words[i] in correct_words:
-                    # if correct_word matches current_words[index]
+            # if correct_word matches current_words[index]
             current_words[i] = BLANK
 
     return current_words
