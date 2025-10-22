@@ -40,7 +40,7 @@ def create_and_set_pixels(filename):
 if __name__ == "__main__":
     # Note: To run this script, you must have the Pillow library installed:
     # pip install Pillow
-    create_and_set_pixels("mystery-image.ppm")
+    create_and_set_pixels("mystery-image.on")
 
     # Change .png to .ppm then run this command:
     # xxd -s 11 mystery-image.ppm
