@@ -22,6 +22,8 @@ def create_and_set_pixels(filename):
 
     pixels[0][4] = (255, 0, 0)
 
+    
+
     # First, draw out on your piece of paper what you think this
     # image will look like!
 
