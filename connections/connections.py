@@ -10,6 +10,10 @@ group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all goups together
 all_groups = [group1, group2, group3]
+current_words = ["AIR", "RUN", "SCREEN",
+                     "REWIND", "SHUFFLE", "SKIP",
+                     "BATH", "CARD", "PICTURE"]
+
 
 def main():
     print("Welcome to Connections!")
@@ -17,9 +21,7 @@ def main():
     get_user_guess()
 
 
-    current_words = ["AIR", "RUN", "SCREEN",
-                     "REWIND", "SHUFFLE", "SKIP",
-                     "BATH", "CARD", "PICTURE"]
+
 
 
 # Shuffle the words
