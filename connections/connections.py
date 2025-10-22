@@ -66,9 +66,7 @@ def change_correct_words(correct_words, current_words):
 
 
 def print_array(array):
-    """
-    Print words in a row, separated by two spaces.
-    """
+
     for word in array:
         print(word, end="  ")
     print()
