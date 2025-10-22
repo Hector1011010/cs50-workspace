@@ -22,7 +22,7 @@ def create_and_set_pixels(filename):
 
     pixels[0][4] = (255, 0, 0)
 
-    pixels[2][3] = (255, 0, 0)
+    pixels[2][3] = (0, 255, 0)
 
     # First, draw out on your piece of paper what you think this
     # image will look like!
