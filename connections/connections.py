@@ -37,7 +37,10 @@ def main():
 
 # Print the words N2
 
-
+def print_grid(words_per_row, words):
+   for i in range(0, len(words), words_per_row):
+       print_array(words[i:i+words_per_row])
+   print()
 
 
 
