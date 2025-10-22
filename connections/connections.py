@@ -57,7 +57,7 @@ def change_correct_words(correct_words, current_words):
     return current_words
 
 
-# 
+# Shuffle the words
 
 # def print_array(array):
 #     """
