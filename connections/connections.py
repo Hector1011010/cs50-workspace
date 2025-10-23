@@ -24,8 +24,8 @@ def main():
     get_user_guess()
     check_answer(current_words)
     upper_guess(current_words)
-    find_smallest()
-    sort_answer()
+    # find_smallest()
+    # sort_answer()
 
 
 
