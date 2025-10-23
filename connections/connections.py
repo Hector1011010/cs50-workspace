@@ -83,19 +83,6 @@ def check_answer(words):
 # Uppercase all the letters in the user guess
 
 def upper_guess(user_guesses):
- """
- Returns array of all words uppercased.
- >>> upper_guess(["hello", "world", "apples"])
- ['HELLO', 'WORLD', 'APPLES']
- >>> upper_guess(["I", "liKe", "aPPlEs"])
- ['I', 'LIKE', 'APPLES']
- >>> upper_guess(["I", "LIKE", "PIE"])
- ['I', 'LIKE', 'PIE']
- >>> upper_guess(["Apples", "apples", "APPLES"])
- ['APPLES', 'APPLES', 'APPLES']
- >>> upper_guess(['a','b','c'])
- ['A', 'B', 'C']
- """
  list = []
  for guess in user_guesses:
      list.append(guess.upper())
