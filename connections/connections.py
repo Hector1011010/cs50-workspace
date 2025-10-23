@@ -25,7 +25,7 @@ def main():
     check_answer(current_words)
     upper_guess(current_words)
     find_smallest()
-    # sort_answer()
+    sort_answer()
     # inputscorrect(current_words, group1, group2, group3)
     # array_check()
 
