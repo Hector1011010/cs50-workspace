@@ -92,6 +92,26 @@ def upper_guess(user_guesses):
 
 # Sort the array of user guessed words
 
+def find_smallest(arr, start):
+   # Copy this function in too!
+   min_idx = start
+   for j in range(start + 1, len(arr)):
+       if arr[j] < arr[min_idx]:
+           min_idx = j
+   return min_idx
+
+
+
+
+def sort_answer(game_answer):
+   for i in range(len(game_answer)):
+       first_answer = find_smallest(game_answer, i)
+       game_answer[i], game_answer[first_answer] = game_answer[first_answer], game_answer[i]
+   return game_answer
+
+
+
+
 
 
 
