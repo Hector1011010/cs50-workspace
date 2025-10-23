@@ -101,7 +101,6 @@ def find_smallest(arr, start):
 
 
 
-
 def sort_answer(game_answer):
    for i in range(len(game_answer)):
        first_answer = find_smallest(game_answer, i)
