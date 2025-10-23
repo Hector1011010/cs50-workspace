@@ -10,8 +10,8 @@ group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all goups together
 current_words = ["AIR", "RUN", "SCREEN",
-                 "REWIND", "SHUFFLE", "SKIP",
-                 "BATH", "CARD", "PICTURE"]
+                "REWIND", "SHUFFLE", "SKIP",
+                "BATH", "CARD", "PICTURE"]
 
 
 
