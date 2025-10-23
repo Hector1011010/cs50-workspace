@@ -111,7 +111,9 @@ def sort_answer(game_answer):
 
 def inputscorrect(inputs, group1, group2, group3):
    # does my inputs match groups[0]?
-   if correct_words == group1:
+   if correct_words
+
+   == group1:
        return True
    # does my inputs match groups[1]?
    elif inputs == group2:
