@@ -65,8 +65,8 @@ def get_user_guess():
 
 
 # Check that number of words is correct & words are valid
-def check_answer(words):
-   if len(words) != 3:
+def check_answer(current_words):
+   if len(cur) != 3:
        print("Try again")
        return False
 
