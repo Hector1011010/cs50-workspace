@@ -27,6 +27,7 @@ def main():
     # find_smallest()
     # sort_answer()
     inputscorrect(current_words, group1, group2, group3)
+    array_check()
 
 
 
