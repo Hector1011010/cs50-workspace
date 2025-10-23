@@ -61,6 +61,23 @@ def get_user_guess():
 
 
 # Check that number of words is correct & words are valid
+def check_answer(words):
+
+
+
+   if len(words) != 3:
+       print("Try again")
+       return False
+
+
+   for word in words:
+       if word not in current_words:
+           print(f"{word.capitalize()} is not an answer")
+           return False
+
+
+   print("Answers accepted:", words)
+   return True
 
 
 
