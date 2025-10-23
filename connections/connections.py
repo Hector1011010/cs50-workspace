@@ -22,7 +22,7 @@ def main():
     upper_guess(current_words)
     # find_smallest()
     # sort_answer()
-    inputscorrect(group1, group2, group3)
+    inputscorrect()
 
 
 
