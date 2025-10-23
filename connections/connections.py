@@ -22,7 +22,7 @@ def main():
     upper_guess(current_words)
     # find_smallest()
     # sort_answer()
-    inputscorrect(group1, group2, group3)
+    inputscorrect(current_words, group1, group2, group3)
 
 
 
@@ -109,7 +109,7 @@ def sort_answer(game_answer):
 
 # Check user answers
 
-def inputscorrect(inputs, group1, group2, group3):
+def inputscorrect(current_words, group1, group2, group3):
    # does my inputs match groups[0]?
    if current_words== group1:
        return True
