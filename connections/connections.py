@@ -109,6 +109,20 @@ def sort_answer(game_answer):
 
 # Check user answers
 
+def inputscorrect(inputs, group1, group2, group3):
+   # does my inputs match groups[0]?
+   if inputs == group1:
+       return True
+   # does my inputs match groups[1]?
+   elif inputs == group2:
+       return True
+   # does my inputs match groups[2]?
+   elif inputs == group3:
+       return True
+   #else flase
+   else:
+       return False
+
 
 
 
