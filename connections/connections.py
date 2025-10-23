@@ -131,8 +131,6 @@ def array_check(user, correct):
    for i in range(len(correct)):
        if user[i] != correct[i]:
            return False
-
-
    return True
 
 
