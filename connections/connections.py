@@ -13,6 +13,8 @@ current_words = group1 + group2 + group3
 
 
 
+
+
 def main():
     shuffle(current_words)
     print("Welcome to Connections!")
