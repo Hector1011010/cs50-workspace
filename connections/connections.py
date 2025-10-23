@@ -59,6 +59,7 @@ def get_user_guess():
 
 # Check that number of words is correct & words are valid
 
+current_words = group1 + group2 + group3
 
 
 
