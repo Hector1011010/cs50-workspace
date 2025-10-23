@@ -126,7 +126,14 @@ def inputscorrect(inputs, group1, group2, group3):
 
 
 
+def array_check(user, correct):
+   # test
+   for i in range(len(correct)):
+       if user[i] != correct[i]:
+           return False
 
+
+   return True
 
 
 
