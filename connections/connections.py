@@ -77,7 +77,7 @@ def check_answer(words):
            return False
 
 
-    print("Answers accepted:", words)
+   print("Answers accepted:", words)
    return True
 
 
