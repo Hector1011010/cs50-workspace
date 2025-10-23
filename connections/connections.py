@@ -76,9 +76,9 @@ def check_answer(words):
            print(f"{word.capitalize()} is not an answer")
            return False
 
-else:
-   print("Answers accepted:", words)
-   return True
+    else:
+       print("Answers accepted:", words)
+       return True
 
 
 
