@@ -90,6 +90,7 @@ def upper_guess(user_guesses):
 
 
 
+# Sort the array of user guessed words
 
 
 
