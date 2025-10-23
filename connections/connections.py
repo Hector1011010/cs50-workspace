@@ -14,6 +14,9 @@ current_words = ["AIR", "RUN", "SCREEN",
                 "REWIND", "SHUFFLE", "SKIP",
                 "BATH", "CARD", "PICTURE"]
 
+current_words = group1 + group2 + group3
+
+
 
 def main():
     shuffle(current_words)
@@ -59,7 +62,6 @@ def get_user_guess():
 
 # Check that number of words is correct & words are valid
 
-current_words = group1 + group2 + group3
 
 
 
