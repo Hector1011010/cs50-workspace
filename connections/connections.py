@@ -72,7 +72,7 @@ def check_answer(current_words):
 
 
    for word in current_words:
-       if words not in current_words:
+       if current_words not in current_words:
            print(f"{word.capitalize()} is not an answer")
            return False
 
