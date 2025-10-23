@@ -24,7 +24,7 @@ def main():
     print_grid(3, current_words)
     get_user_guess()
     check_answer(current_words)
-    upper_guess(u)
+    upper_guess(user_guesses)
 
 
 
