@@ -9,9 +9,9 @@ group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all goups together
-current_words = ["AIR   ", "RUN    ", "SCREEN",
+current_words = ["AIR", "RUN", "SCREEN",
                  "REWIND", "SHUFFLE", "SKIP",
-                 "BATH  ", "CARD   ", "PICTURE"]
+                 "BATH  ", "CARD", "PICTURE"]
 
 
 
