@@ -73,7 +73,8 @@ def check_answer(user_guess):
     sorted_guess = sorted(user_guess)
     if (sorted_guess == sorted(group1) or
         sorted_guess == sorted(group2) or
-        sorted_guess == sorted(group3)):
+        sorted_guess == sorted(group3) or
+        sorted_guess == sorted(group4)):
         print("Correct group found! :)")
         return True
     else:
