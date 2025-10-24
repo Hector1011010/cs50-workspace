@@ -4,7 +4,7 @@ GROUP_SIZE = 4
 BLANK = "-----"
 
 # Declare the word groups
-group1 = ["DEAD", "pad ", "SCREEN"]
+group1 = ["DEAD", "PAD", "COMBINATION"]
 group2 = ["REWIND", "SHUFFLE", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
