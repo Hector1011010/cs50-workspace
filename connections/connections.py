@@ -5,7 +5,7 @@ BLANK = "-----"
 
 # Declare the word groups
 group1 = ["DEAD", "PAD", "COMBINATION"]
-group2 = ["REWIND", "SHUFFLE", "SKIP"]
+group2 = ["DAY", "SPOT", "SKIP"]
 group3 = ["BATH", "CARD", "PICTURE"]
 
 # put all groups together
