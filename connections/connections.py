@@ -9,8 +9,9 @@ group2 = ["DAY", "SPOT", "GAS", "HEAD"]
 group3 = ["HARD", "RECORD", "SILENCE", "KEY"]
 
 # put all groups together
-current_words = [DEAD", "PAD", "COMBINATION", "KEY"]
-group2 = ["DAY", "SPOT", "GAS", "HEAD"]["HARD", "RECORD", "SILENCE", "KEY"]
+current_words = [DEAD", "PAD", "COMBINATION", "KEY",
+                 "DAY", "SPOT", "GAS", "HEAD",
+                 "HARD", "RECORD", "SILENCE", "KEY"]
 
 
 import random
