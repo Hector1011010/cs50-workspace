@@ -129,6 +129,7 @@ def check_win(words: list[str]) -> bool:
     return True
 
 
+
 def main():
     shuffled_words = shuffle(current_words)
     print("Welcome to Connections!")
