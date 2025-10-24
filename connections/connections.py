@@ -50,17 +50,27 @@ def get_user_guess():
 
 # Check that number of words is correct & words are valid
 def check_answer(user_guess):
+    # Must have exactly 3 words
     if len(user_guess) != 3:
         print("Try again")
         return False
 
+    # Make sure all words exist in current list
     for word in user_guess:
         if word not in current_words:
             print(f"{word.capitalize()} is not an answer")
             return False
 
-    print("Answers accepted:", user_guess)
-    return True
+    # Check if guess matches any correct group (sorted comparison)
+    sorted_guess = sorted(user_guess)
+    if (sorted_guess == sorted(group1) or
+        sorted_guess == sorted(group2) or
+        sorted_guess == sorted(group3)):
+        print("✅ Correct group found!")
+        return True
+    else:
+        print("❌ That’s not a correct group.")
+        return False
 
 
 # Uppercase all the letters in the user guess
