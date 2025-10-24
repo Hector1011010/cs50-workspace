@@ -28,11 +28,6 @@ def shuffle(arr: list[str]) -> list[str]:
 current_words = shuffle(current_words)
 
 
-# Print the words N2
-# def print_array(array):
-#     for word in array:
-#         print(word, end="  ")
-#     print()
 
 
 # makes word align
