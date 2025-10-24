@@ -121,6 +121,14 @@ def change_correct_words(correct_words, current_words):
     return current_words
 
 
+
+def check_win(words: list[str]) -> bool:
+    for word in words:
+        if word != BLANK:
+            return False
+    return True
+
+
 def main():
     shuffled_words = shuffle(current_words)
     print("Welcome to Connections!")
