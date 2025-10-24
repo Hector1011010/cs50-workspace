@@ -66,7 +66,7 @@ def check_answer(user_guess):
     if (sorted_guess == sorted(group1) or
         sorted_guess == sorted(group2) or
         sorted_guess == sorted(group3)):
-        print("✅ Correct group found!")
+        print("Correct group found! :()")
         return True
     else:
         print("❌ That’s not a correct group.")
