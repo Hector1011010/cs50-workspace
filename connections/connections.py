@@ -6,7 +6,7 @@ BLANK = "-----"
 # Declare the word groups
 group1 = ["DEAD", "PAD", "COMBINATION", "KEY"]
 group2 = ["DAY", "SPOT", "GAS", "HEAD"]
-group3 = ["BATH", "CARD", "PICTURE"]
+group3 = [HARD , RECORD, ]
 
 # put all groups together
 current_words = ["AIR", "RUN", "SCREEN",
