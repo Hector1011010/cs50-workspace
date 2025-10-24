@@ -12,7 +12,8 @@ group4 = ["JUDGE", "TENNIS", "APPEAL", "CASE"]
 # put all groups together
 current_words = ["DEAD", "PAD", "COMBINATION", "LOCK",
                  "DAY", "SPOT", "GAS", "HEAD",
-                 "HARD", "RECORD", "SILENCE", "KEY"]
+                 "HARD", "RECORD", "SILENCE", "KEY",
+                 "JUDGE", "TENNIS", "APPEAL", "CASE"]
 
 
 import random
