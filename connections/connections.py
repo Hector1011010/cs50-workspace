@@ -34,11 +34,11 @@ current_words = shuffle(current_words)
 #         print(word, end="  ")
 #     print()
 
-def print_array(array, col_width=None):
 
+# makes word align
+def print_array(array, col_width=None):
     if col_width is None:
         col_width = max(len(word) for word in current_words) + 2
-
     for word in array:
         print(word.ljust(col_width), end="")
     print()
