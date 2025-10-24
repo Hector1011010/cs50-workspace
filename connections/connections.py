@@ -146,7 +146,7 @@ def main():
             print_grid(3, shuffled_words)
 
             if check_win(shuffled_words):
-                print("Congratulations! You found all connections!")
+                print("Yayyy! You found all connections!")
                 break
         else:
             print("Invalid guess.")
