@@ -57,7 +57,7 @@ def get_user_guess():
 # Check that number of words is correct & words are valid
 def check_answer(user_guess):
     # Must have exactly 3 words
-    if len(user_guess) != 4:
+    if len(user_guess) != 5:
         print("Try again")
         return False
 
@@ -139,7 +139,7 @@ def check_win(words: list[str]) -> bool:
 def main():
     shuffled_words = shuffle(current_words)
     print("Welcome to Connections!")
-    print_grid(4, shuffled_words)
+    print_grid(5, shuffled_words)
 
     while True:
         user_guess = get_user_guess()
