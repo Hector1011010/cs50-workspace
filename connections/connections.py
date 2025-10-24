@@ -133,7 +133,7 @@ def check_win(words: list[str]) -> bool:
 def main():
     shuffled_words = shuffle(current_words)
     print("Welcome to Connections!")
-    print_grid(3, shuffled_words)
+    print_grid(4, shuffled_words)
 
     while True:
         user_guess = get_user_guess()
