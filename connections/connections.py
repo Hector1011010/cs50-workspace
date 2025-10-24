@@ -43,7 +43,7 @@ def print_array(array, col_width=None):
         print(word.ljust(col_width), end="")
     print()
 
-
+# pint the grid
 def print_grid(words_per_row, words):
 
     col_width = max(len(word) for word in words) + 2
