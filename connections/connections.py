@@ -112,6 +112,8 @@ def inputscorrect(current_words, group1, group2, group3, group4):
         return True
     elif current_words == group3:
         return True
+    elif current_words == group4:
+        return True
     else:
         return False
 
