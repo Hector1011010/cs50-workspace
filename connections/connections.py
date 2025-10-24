@@ -7,6 +7,7 @@ BLANK = "-----"
 group1 = ["DEAD", "PAD", "COMBINATION", "LOCK"]
 group2 = ["DAY", "SPOT", "GAS", "HEAD"]
 group3 = ["HARD", "RECORD", "SILENCE", "KEY"]
+group4 = ["JUDGE", "TENNIS", "APPEAL", "CASE"]
 
 # put all groups together
 current_words = ["DEAD", "PAD", "COMBINATION", "LOCK",
