@@ -35,7 +35,7 @@ current_words = shuffle(current_words)
 #     print()
 
 def print_array(array, col_width=None):
-    # If no width is given, set it based on the longest word in the whole game
+
     if col_width is None:
         col_width = max(len(word) for word in current_words) + 2
 
