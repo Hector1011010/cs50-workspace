@@ -105,7 +105,7 @@ def sort_answer(game_answer):
     return game_answer
 
 
-def inputscorrect(current_words, group1, group2, group3):
+def inputscorrect(current_words, group1, group2, group3, group4):
     if current_words == group1:
         return True
     elif current_words == group2:
