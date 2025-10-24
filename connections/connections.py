@@ -151,7 +151,7 @@ def main():
             print("You found group:", ", ".join(user_guess))
 
             shuffled_words = change_correct_words(user_guess, shuffled_words)
-            print_grid(4, shuffled_words)
+            print_grid(5, shuffled_words)
 
             if check_win(shuffled_words):
                 print("Yayyy! You found all connections!")
