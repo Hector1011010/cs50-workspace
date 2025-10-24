@@ -147,6 +147,8 @@ def main():
 
         if check_answer(user_guess):
             print("Your guess is valid!")
+            
+            print("You found this group:", ", ".join(user_guess))
 
             shuffled_words = change_correct_words(user_guess, shuffled_words)
             print_grid(4, shuffled_words)
