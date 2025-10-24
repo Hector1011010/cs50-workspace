@@ -1,6 +1,6 @@
 # Constants
-WORD_COUNT = 9
-GROUP_SIZE = 3
+WORD_COUNT = 16
+GROUP_SIZE = 4
 BLANK = "-----"
 
 # Declare the word groups
@@ -51,7 +51,7 @@ def get_user_guess():
 # Check that number of words is correct & words are valid
 def check_answer(user_guess):
     # Must have exactly 3 words
-    if len(user_guess) != 3:
+    if len(user_guess) != 4:
         print("Try again")
         return False
 
