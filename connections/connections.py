@@ -139,7 +139,6 @@ def main():
         user_guess = get_user_guess()
         user_guess = upper_guess(user_guess)
 
-        # Check if guess is valid and correct
         if check_answer(user_guess):
             print("Your guess is valid!")
 
@@ -147,7 +146,7 @@ def main():
             print_grid(3, shuffled_words)
 
             if check_win(shuffled_words):
-                print("🎉 Congratulations! You found all connections!")
+                print("Congratulations! You found all connections!")
                 break
         else:
             print("Invalid guess.")
