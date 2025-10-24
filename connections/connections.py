@@ -38,7 +38,7 @@ def print_array(array):
     # find the longest word so all columns align
     max_len = max(len(word) for word in array)
     for word in array:
-        print(word.ljust(max_len - 2), end="")  # +2 adds spacing
+        print(word.ljust(max_len + 2), end="")  # +2 adds spacing
     print()
 
 
