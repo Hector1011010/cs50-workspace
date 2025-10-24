@@ -143,7 +143,7 @@ def main():
             print("Your guess is valid!")
 
             shuffled_words = change_correct_words(user_guess, shuffled_words)
-            print_grid(3, shuffled_words)
+            print_grid(4, shuffled_words)
 
             if check_win(shuffled_words):
                 print("Yayyy! You found all connections!")
