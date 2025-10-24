@@ -69,7 +69,7 @@ def check_answer(user_guess):
         print("Correct group found! :)")
         return True
     else:
-        print("❌ That’s not a correct group. :(")
+        print("That’s not a correct group. :(")
         return False
 
 
