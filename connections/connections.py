@@ -134,12 +134,24 @@ def main():
     shuffled_words = shuffle(current_words)
     print("Welcome to Connections!")
     print_grid(3, shuffled_words)
-    user_guess = get_user_guess()
-    user_guess = upper_guess(user_guess)
-    if check_answer(user_guess):
-        print("Your guess is valid!")
-    else:
-        print("Invalid guess.")
+
+    while True:
+        user_guess = get_user_guess()
+        user_guess = upper_guess(user_guess)
+
+        # Check if guess is valid and correct
+        if check_answer(user_guess):
+            print("Your guess is valid!")
+
+            shuffled_words = change_correct_words(user_guess, shuffled_words)
+            print_grid(3, shuffled_words)
+
+            if check_win(shuffled_words):
+                print("🎉 Congratulations! You found all connections!")
+                break
+        else:
+            print("Invalid guess.")
+
 
 
 if __name__ == "__main__":
