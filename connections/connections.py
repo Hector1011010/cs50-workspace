@@ -1,7 +1,7 @@
 # Constants
 WORD_COUNT = 16
 GROUP_SIZE = 4
-BLANK = "-----"
+BLANK = " " * (MAX_WIDTH - 2)
 
 # Declare the word groups
 group1 = ["BARK", "PITCH", "NOTE", "SCALE"]
