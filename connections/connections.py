@@ -12,8 +12,8 @@ group4 = ["Java", "Python", "Ruby", "Swift"]
 
 
 # put all groups together
-current_words = ["BARK", "PITCH", "Note", "Scale",
-                 "Mercury", "Venus", "Mars", "Jupiter",
+current_words = ["BARK", "PITCH", "NOTE", "SCALE",
+                 "MERCURY", "Venus", "Mars", "Jupiter",
                  "Seal", "Club", "Bat", "Penguin",
                  "Java", "Python", "Ruby", "Swift"]
 }
