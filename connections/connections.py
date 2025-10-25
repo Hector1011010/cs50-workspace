@@ -7,13 +7,7 @@ BLANK = "-----"
 group1 = ["Bark", "Pitch", "Note", "Scale"]
 group2 = ["Mercury", "Venus", "Mars", "Jupiter"]
 group3 = ["Seal", "Club", "Bat", "Penguin"]
-group4 = ["Java
-
-Python
-
-Ruby
-
-Swift"]
+group4 = ["Java", "Python, Ruby, Swift"]
 
 # put all groups together
 current_words = ["DEAD", "PAD", "COMBINATION", "LOCK",
