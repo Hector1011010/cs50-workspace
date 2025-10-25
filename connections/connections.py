@@ -14,8 +14,8 @@ group4 = ["Java", "Python", "Ruby", "Swift"]
 # put all groups together
 current_words = ["Bark", "Pitch", "Note", "Scale"]
 group2 = ["Mercury", "Venus", "Mars", "Jupiter"]
-group3 = ["Seal", "Club", "Bat", "Penguin"]
-group4 = ["Java", "Python", "Ruby", "Swift"{}
+group3 = ["Seal", "Club", "Bat", "Penguin", "Java", "Python", "Ruby", "Swift"]
+}
 
 import random
 
