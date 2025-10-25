@@ -10,9 +10,9 @@ group3 = ["SEAL", "CLUB", "BAT", "PENGUIN"]
 group4 = ["JAVA", "PYTHON", "RUBY", "SWIFT"]
 
 # put all groups together
-current_words = ["BARK", "PITCH", "NOTE", "SCALE"]
-group2 = ["MMERCURY", "VENUS", "MARS", "JUPITER"]
-group3 = ["SEAL", "CLUB", "BAT", "PENGUIN"]
+current_words = ["BARK", "PITCH", "NOTE", "SCALE",
+                 "MMERCURY", "VENUS", "MARS", "JUPITER",
+                 "SEAL", "CLUB", "BAT", "PENGUIN"]
 group4 = ["JAVA", "PYTHON", "RUBY", "SWIFT"]
 
 
