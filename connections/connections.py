@@ -12,6 +12,7 @@ current_words = ["BARK", "PITCH", "NOTE", "SCALE",
 
 MAX_WIDTH = max(len(word) for word in current_words) + 2
 
+
 WORD_COUNT = 16
 GROUP_SIZE = 4
 BLANK = " " * (MAX_WIDTH - 2)
