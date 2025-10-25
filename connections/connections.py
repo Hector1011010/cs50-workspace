@@ -5,8 +5,8 @@ BLANK = "-----"
 
 
 # Declare the word groups
-group1 = ["Bark", "Pitch", "Note", "Scale"]
-group2 = ["Mercury", "Venus", "Mars", "Jupiter"]
+group1 = ["BARK", "PITCH", "NOTE", "SCALE"]
+group2 = ["MERCURY", "VENUS", "MARS", "JUPITER"]
 group3 = ["SEAL", "CLUB", "BAT", "PENGUIN"]
 group4 = ["JAVA", "PYTHON", "RUBY", "SWIFT"]
 
