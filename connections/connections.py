@@ -50,6 +50,22 @@ def print_grid(words_per_row, words):
     print()
 
 
+
+
+
+def print_array(array, col_width=MAX_WIDTH):
+    for word in array:
+        print(word.ljust(col_width), end="")
+    print()
+
+def print_grid(words_per_row, words, col_width=MAX_WIDTH):
+    for i in range(0, len(words), words_per_row):
+        print_array(words[i:i+words_per_row], col_width)
+    print()
+
+
+
+
 # Get the words guessed by the user & put it into an array
 def get_user_guess():
     guess = input("Enter a word group (separated by spaces): ")
