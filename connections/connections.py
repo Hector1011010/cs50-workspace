@@ -13,8 +13,8 @@ group4 = ["Java", "Python", "Ruby", "Swift"]
 
 # put all groups together
 current_words = ["BARK", "PITCH", "NOTE", "SCALE",
-                 "MERCURY", "VENUS", "MA", "Jupiter",
-                 "Seal", "Club", "Bat", "Penguin",
+                 "MERCURY", "VENUS", "MARS", "JUPITER",
+                 "SEAL", "Club", "Bat", "Penguin",
                  "Java", "Python", "Ruby", "Swift"]
 }
 
