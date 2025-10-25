@@ -16,7 +16,6 @@ current_words = ["BARK", "PITCH", "NOTE", "SCALE",
                  "MERCURY", "VENUS", "MARS", "JUPITER",
                  "SEAL", "CLUB", "BAT", "PENGUIN",
                  "JAVA", "PYTHON", "RUBY", "SWIFT"]
-}
 
 import random
 
