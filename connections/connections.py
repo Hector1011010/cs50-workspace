@@ -17,6 +17,8 @@ WORD_COUNT = 16
 GROUP_SIZE = 4
 BLANK = " " * (MAX_WIDTH - 2)
 
+
+
 import random
 
 def shuffle(arr: list[str]) -> list[str]:
