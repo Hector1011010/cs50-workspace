@@ -4,7 +4,13 @@ GROUP_SIZE = 4
 BLANK = "-----"
 
 # Declare the word groups
-group1 = ["DEAD", "PAD", "COMBINATION", "LOCK"]
+group1 = [Bark
+
+Pitch
+
+Note
+
+Scale"]
 group2 = ["DAY", "SPOT", "GAS", "HEAD"]
 group3 = ["HARD", "RECORD", "SILENCE", "KEY"]
 group4 = ["JUDGE", "TENNIS", "APPEAL", "CASE"]
@@ -152,7 +158,7 @@ def main():
 
         if check_answer(user_guess):
             print("You found group:", ", ".join(user_guess))
-            
+
             shuffled_words = change_correct_words(user_guess, shuffled_words)
             print_grid(5, shuffled_words)
 
