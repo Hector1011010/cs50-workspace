@@ -10,10 +10,9 @@ group3 = ["Seal", "Club", "Bat", "Penguin"]
 group4 = ["Java", "Python", "Ruby", "Swift"]
 
 # put all groups together
-current_words = ["DEAD", "PAD", "COMBINATION", "LOCK",
-                 "DAY", "SPOT", "GAS", "HEAD",
-                 "HARD", "RECORD", "SILENCE", "KEY",
-                 "JUDGE", "TENNIS", "APPEAL", "CASE"]
+current_words = ["Bark", "Pitch", "Note", "Scale", "Mercury", "Venus", "Mars", "Jupiter"]
+group3 = ["Seal", "Club", "Bat", "Penguin"]
+group4 = ["Java", "Python", "Ruby", "Swift"]
 
 
 import random
