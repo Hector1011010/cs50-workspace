@@ -1,7 +1,7 @@
 
 WORD_COUNT = 16
 GROUP_SIZE = 4
-BLANK = " " * (MAX_WIDTH - 2)
+BLANK = "-----"
 
 
 
