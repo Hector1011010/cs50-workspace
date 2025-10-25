@@ -8,7 +8,7 @@ BLANK = "-----"
 group1 = ["Bark", "Pitch", "Note", "Scale"]
 group2 = ["Mercury", "Venus", "Mars", "Jupiter"]
 group3 = ["Seal", "Club", "Bat", "Penguin"]
-group4 = ["Java", "Python", "Ruby", "Swift"]
+group4 = ["JAVA", "PYTHON", "RUBY", "SWIFT"]
 
 
 # put all groups together
