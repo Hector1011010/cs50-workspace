@@ -15,6 +15,7 @@ current_words = ["BARK", "PITCH", "NOTE", "SCALE",
                  "SEAL", "CLUB", "BAT", "PENGUIN",
                  "JAVA", "PYTHON", "RUBY", "SWIFT"]
 
+MAX_WIDTH = max(len(word) for word in current_words) + 2
 
 import random
 
