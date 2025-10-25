@@ -12,7 +12,7 @@ group4 = ["Java", "Python", "Ruby", "Swift"]
 
 
 # put all groups together
-current_words = [Bark      Pitch     Note      Scale, Mars      Venus     Mercury   Jupiter
+current_words = [Bark      Pitch, Note, Scale, Mars      Venus     Mercury   Jupiter
 Seal      Club      Bat       Penguin
 Python    Ruby      Java      Swift]
 
