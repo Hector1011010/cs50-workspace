@@ -42,14 +42,10 @@ def print_array(array, col_width=None):
     print()
 
 # pint the grid
-def print_grid(words_per_row, words):
-
-    col_width = max(len(word) for word in words) + 2
+def print_grid(words_per_row, words, col_width=MAX_WIDTH):
     for i in range(0, len(words), words_per_row):
         print_array(words[i:i+words_per_row], col_width)
     print()
-
-
 
 
 
@@ -58,10 +54,7 @@ def print_array(array, col_width=MAX_WIDTH):
         print(word.ljust(col_width), end="")
     print()
 
-def print_grid(words_per_row, words, col_width=MAX_WIDTH):
-    for i in range(0, len(words), words_per_row):
-        print_array(words[i:i+words_per_row], col_width)
-    print()
+
 
 
 
