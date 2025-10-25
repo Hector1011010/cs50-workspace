@@ -5,7 +5,9 @@ BLANK = "-----"
 
 # Declare the word groups
 group1 = ["Bark", "Pitch", "Note", "Scale"]
-group2 = ["DAY", "SPOT", "GAS", "HEAD"]
+group2 = [Mercury
+
+Venus, Mars, Jupiter"]
 group3 = ["HARD", "RECORD", "SILENCE", "KEY"]
 group4 = ["JUDGE", "TENNIS", "APPEAL", "CASE"]
 
