@@ -1,7 +1,7 @@
 # Constants
 WORD_COUNT = 16
 GROUP_SIZE = 4
-BLANK = " " * (MAX_WIDTH - 2)
+
 
 # Declare the word groups
 group1 = ["BARK", "PITCH", "NOTE", "SCALE"]
@@ -16,6 +16,11 @@ current_words = ["BARK", "PITCH", "NOTE", "SCALE",
                  "JAVA", "PYTHON", "RUBY", "SWIFT"]
 
 MAX_WIDTH = max(len(word) for word in current_words) + 2
+
+
+BLANK = " " * (MAX_WIDTH - 2)
+
+
 
 import random
 
