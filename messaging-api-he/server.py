@@ -13,8 +13,6 @@ def get_time():
     return "The time is " + datetime.now().strftime("%H:%M:%S")
 
 # count endpoint
-count request = 0
-
 
 
 # Leave this at the bottom of your code
