@@ -8,7 +8,9 @@ def home():
     return "Hello World!"
 
 # Add other endpoints here!
-
+@app.route("/time")
+def get_time():
+    return "The time is " + datetime.now().strftime("%H:%M:%S")
 
 # Leave this at the bottom of your code
 if __name__ == "__main__":
