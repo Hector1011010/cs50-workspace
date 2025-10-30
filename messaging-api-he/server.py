@@ -15,8 +15,6 @@ def get_time():
 # count endpoint
 count_request = 0
 
-#
-
 def count():
     global count_requests
     count_requests += 1
