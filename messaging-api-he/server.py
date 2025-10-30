@@ -15,7 +15,8 @@ def get_time():
 # count endpoint
 count_rec = 0
 
-def count
+def count():
+    
 
 # Leave this at the bottom of your code
 if __name__ == "__main__":
