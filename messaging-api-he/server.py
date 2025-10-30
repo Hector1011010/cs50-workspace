@@ -15,10 +15,7 @@ def get_time():
 # count endpoint
 count request = 0
 
-def count():
-    global count_requests
-    count_requests += 1
-    return f"The /count endpoint has been called {count_requests} times."
+
 
 # Leave this at the bottom of your code
 if __name__ == "__main__":
