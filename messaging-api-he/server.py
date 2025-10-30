@@ -13,7 +13,9 @@ def get_time():
     return "The time is " + datetime.now().strftime("%H:%M:%S")
 
 # count endpoint
-count_
+count_rec = 0
+
+def count
 
 # Leave this at the bottom of your code
 if __name__ == "__main__":
